@@ -29,8 +29,8 @@ export default {
           '100%': { transform: 'translateX(-1789)' }
         },
         "refer-slider": {
-          '0%': { transform: 'translateX(100%)' },
-          '100%': { transform: 'translateX(0)' }
+          '0%': { transform: 'translateX(20%)' },
+          '100%': { transform: 'translateX(-100%)' }
         }
       },
       animation: {

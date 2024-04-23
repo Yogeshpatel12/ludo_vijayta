@@ -3,7 +3,7 @@ import Button from "./Button"
 const Hero = () => {
   return (
     <div className="bg-black w-full h-full pb-10">
-      <div className="bg-primary lg:bg-transparent lg:bg-[url('/banner_large.png')] w-full min-h-screen h-auto bg-no-repeat bg-center bg-cover relative">
+      <div className="bg-primary lg:bg-transparent lg:bg-[url('/banner_large.png')] w-full lg:min-h-screen h-auto bg-no-repeat bg-center bg-cover relative">
         <div className="hidden lg:block w-fit mx-auto absolute bottom-0 inset-x-0 translate-y-1/4">
           <Button text="Download Now" size="xl" />
         </div>
